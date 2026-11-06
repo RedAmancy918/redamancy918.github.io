@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#263f5b"/><text x="32" y="43" text-anchor="middle" font-size="30" font-family="Georgia,serif" fill="white">JY</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 42 42"><title>RiverBank</title>
+    <rect x="1" y="1" width="12" height="12" rx="3" fill="#d8d8d8"/>
+    <rect x="15" y="1" width="12" height="12" rx="3" fill="#aaaaaa"/>
+    <rect x="29" y="1" width="12" height="12" rx="3" fill="#7d7d7d"/>
+    <rect x="1" y="15" width="12" height="12" rx="3" fill="#aaaaaa"/>
+    <rect x="15" y="15" width="12" height="12" rx="3" fill="#7d7d7d"/>
+    <rect x="29" y="15" width="12" height="12" rx="3" fill="#545454"/>
+    <rect x="1" y="29" width="12" height="12" rx="3" fill="#7d7d7d"/>
+    <rect x="15" y="29" width="12" height="12" rx="3" fill="#545454"/>
+    <rect x="29" y="29" width="12" height="12" rx="3" fill="#11120f"/>
+  </svg>
