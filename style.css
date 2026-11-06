@@ -25,6 +25,8 @@ body[data-style=classic] .paper{grid-template-columns:minmax(0,1fr);gap:22px;pad
 body[data-style=classic] .paper-media{height:auto;padding:20px;background:#fff;border-color:var(--line)}
 body[data-style=classic] .paper-media img{width:100%;height:auto;max-height:440px;object-fit:contain}
 body[data-style=classic] .paper h3{font-size:19px}
+body[data-style=classic] .paper-heading{min-width:0}
+body[data-style=classic] .paper-body>.authors{margin-top:0}
 body[data-style=classic] .authors{font-size:13px}
 body[data-style=classic] .paper-summary{font-size:14px}
 body[data-style=classic] .paper-links,body[data-style=classic] .paper-links button{font-size:13px}
