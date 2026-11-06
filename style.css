@@ -21,8 +21,9 @@ body[data-style=classic] h1{font-size:46px}
 body[data-style=classic] .bio{font-size:16px}
 body[data-style=classic] .socials{font-size:14px}
 body[data-style=classic] .section-heading h2{font-size:31px}
-body[data-style=classic] .paper{grid-template-columns:375px minmax(0,1fr);gap:32px;padding:25px 0}
-body[data-style=classic] .paper-media{height:277.5px;padding:15px;background:#fff;border-color:var(--line)}
+body[data-style=classic] .paper{grid-template-columns:minmax(0,1fr);gap:22px;padding:32px 0}
+body[data-style=classic] .paper-media{height:auto;padding:20px;background:#fff;border-color:var(--line)}
+body[data-style=classic] .paper-media img{width:100%;height:auto;max-height:440px;object-fit:contain}
 body[data-style=classic] .paper h3{font-size:19px}
 body[data-style=classic] .authors{font-size:13px}
 body[data-style=classic] .paper-summary{font-size:14px}
@@ -33,8 +34,9 @@ body[data-style=classic] .contact-section p:not(.eyebrow){font-size:15px}
 body[data-style=classic] .portrait[src$="portrait.svg"]{visibility:hidden}
 body[data-style=classic] .moment-text{font-size:16px}
 @media(max-width:800px){
-  body[data-style=classic] .paper{grid-template-columns:307.5px minmax(0,1fr);gap:24px}
-  body[data-style=classic] .paper-media{height:247.5px}
+  body[data-style=classic] .paper{grid-template-columns:minmax(0,1fr);gap:20px}
+  body[data-style=classic] .paper-media{height:auto;padding:16px}
+  body[data-style=classic] .paper-media img{max-height:380px}
   body[data-style=classic] nav{font-size:13px}
   body[data-style=classic] h1{font-size:39px}
 }
@@ -46,7 +48,8 @@ body[data-style=classic] .moment-text{font-size:16px}
   body[data-style=classic] .socials{font-size:13px}
   body[data-style=classic] .section-heading h2{font-size:28px}
   body[data-style=classic] .paper{grid-template-columns:1fr;gap:18px}
-  body[data-style=classic] .paper-media{height:auto;aspect-ratio:375/277.5;padding:14px}
+  body[data-style=classic] .paper-media{height:auto;aspect-ratio:auto;padding:12px}
+  body[data-style=classic] .paper-media img{max-height:300px}
   body[data-style=classic] .paper h3{font-size:18px}
   body[data-style=classic] .authors{font-size:12px}
   body[data-style=classic] .moment-text{font-size:15px}
