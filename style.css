@@ -10,3 +10,5 @@ body[data-style=sidebar]{--accent:#386d9c;--max:1100px;--body:#fdfdfd}body[data-
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 @media(max-width:600px){body[data-style=sidebar] .hero{display:flex}}
+
+.social-icons{display:flex;align-items:center;gap:14px;flex-shrink:0}.social-icons a{display:flex;color:#45534c}.social-icons svg{width:21px;height:21px;fill:currentColor}.social-icons a:hover{color:var(--accent)}@media(max-width:600px){.topbar-inner{gap:10px}.social-icons{gap:10px}.social-icons svg{width:18px;height:18px}nav{gap:12px;font-size:11px}}

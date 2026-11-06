@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Life | Jiahao Yang</title><meta name="description" content="Small moments, photos and life updates from Jiahao Yang.">
+  <link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="life.css">
+  <script src="site.js" defer></script><script src="life.js" defer></script>
+</head>
+<body data-style="classic" class="life-page">
+  <a class="skip-link" href="#life">Skip to content</a>
+  <header class="topbar"><div class="topbar-inner"><div class="social-icons" aria-label="Social links"><a href="mailto:Geoyang689@outlook.com" aria-label="Email" title="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h18a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm9 10L2 7v2l10 7 10-7V7z"/></svg></a><a href="https://github.com/RedAmancy918" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.09c-3.13.68-3.79-1.33-3.79-1.33-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.73 1.16 1.73 1.16 1 1.72 2.63 1.22 3.27.93.1-.73.4-1.22.71-1.5-2.5-.28-5.12-1.25-5.12-5.57 0-1.23.44-2.24 1.16-3.03-.12-.28-.5-1.43.11-2.99 0 0 .95-.3 3.08 1.16a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.08-1.16 3.08-1.16.61 1.56.23 2.71.11 2.99.73.79 1.16 1.8 1.16 3.03 0 4.33-2.62 5.28-5.13 5.56.4.35.76 1.03.76 2.08v3.1c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8z"/></svg></a><a href="https://www.linkedin.com/in/jiahao-yang-7270361b2/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 2H3.55A1.55 1.55 0 0 0 2 3.55v16.9A1.55 1.55 0 0 0 3.55 22h16.9A1.55 1.55 0 0 0 22 20.45V3.55A1.55 1.55 0 0 0 20.45 2zM8 19H5V9h3zM6.5 7.7A1.7 1.7 0 1 1 6.5 4.3a1.7 1.7 0 0 1 0 3.4zM19 19h-3v-5.1c0-1.5-.6-2-1.4-2-1.1 0-1.6.8-1.6 2V19h-3V9h2.9v1.4c.5-.9 1.4-1.6 2.8-1.6 2.2 0 3.3 1.4 3.3 4.1z"/></svg></a></div><nav aria-label="Main navigation"><a href="index.html#about" data-i18n="about">About</a><a href="index.html#publications" data-i18n="research">Research</a><a href="index.html#experience" data-i18n="experience">Experience</a><a href="life.html" aria-current="page" data-i18n="life">Life</a><a href="index.html#contact" data-i18n="contact">Contact</a></nav></div></header>
+  <main class="life-main" id="life">
+    <div class="life-intro"><p class="eyebrow" data-i18n="lifeEyebrow">BEYOND THE LAB</p><h1 data-i18n="lifeTitle">Life, lately.</h1><p data-i18n="lifeIntro">Small moments, thoughts, and places along the way.</p></div>
+    <div class="life-filters" role="group" aria-label="Filter life updates"><button data-category="all" aria-pressed="true" data-i18n="allMoments">All moments</button><button data-category="daily" aria-pressed="false" data-i18n="daily">Everyday</button><button data-category="travel" aria-pressed="false" data-i18n="travel">Travel</button><button data-category="lab" aria-pressed="false" data-i18n="lab">In the lab</button></div>
+    <div id="moments" aria-live="polite"></div>
+    <div id="empty-moments" class="empty-moments" hidden><span class="empty-mark" aria-hidden="true">✳</span><h2 data-i18n="emptyTitle">A little space for everyday life.</h2><p data-i18n="emptyText">New photos, thoughts and updates will find their way here.</p></div>
+    <p id="life-error" role="alert" hidden></p>
+    <footer><span>© 2026 Jiahao Yang</span><a href="index.html" data-i18n="about">About</a></footer>
+  </main>
+  <dialog id="photo-dialog" class="photo-dialog" aria-label="Photo viewer"><button id="close-photo" aria-label="Close photo">×</button><img id="full-photo" alt=""></dialog>
+</body></html>
