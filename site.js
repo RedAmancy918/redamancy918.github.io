@@ -6,7 +6,7 @@
   const PROFILE_PHOTO = 'assets/portrait.svg';
   document.querySelectorAll('[data-portrait]').forEach(img => {
     img.src = PROFILE_PHOTO;
-    img.alt = PROFILE_PHOTO === 'assets/portrait.svg' ? '' : 'Jiahao Yang';
+    img.alt = PROFILE_PHOTO === 'assets/portrait.svg' ? '' : 'Jiahao (Geo) Yang';
   });
   const params = new URLSearchParams(location.search);
   const style = params.get('style');
