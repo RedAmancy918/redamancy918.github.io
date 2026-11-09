@@ -40,5 +40,9 @@ MimicIK figures were supplied by Jiahao Yang. Other research thumbnails accompan
 - RoboSeek: https://russderrick.github.io/Roboseek/
 - ReFPO: https://neurips.cc/virtual/2026/poster/152804
 - MaskVLA: https://arxiv.org/abs/2609.23565
+- Acting While Understanding — Shenhao Yan et al., Figure 2, unchanged original: https://arxiv.org/html/2606.15285v1/image/async_pipeline.png ([paper](https://arxiv.org/abs/2606.15285), arXiv nonexclusive distribution license).
+- Elastic Queries — Ge Wang et al., Figure 2, resized proportionally for web: https://arxiv.org/html/2606.14375v1/figures/methodology.png ([paper](https://arxiv.org/abs/2606.14375), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
+- KoopmanFlow — Chengsi Yao et al., Figure 3, resized proportionally for web: https://arxiv.org/html/2603.13781v1/Koopaflow.png ([paper](https://arxiv.org/abs/2603.13781), arXiv nonexclusive distribution license).
+- SVLL — Yuyuan Yang et al., Figure 4, unchanged original: https://arxiv.org/html/2603.11563v1/CVPR_4.png ([paper](https://arxiv.org/abs/2603.11563), [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)).
 
 Research figures remain subject to their original licenses. Their inclusion does not grant a new license to the underlying research assets.
